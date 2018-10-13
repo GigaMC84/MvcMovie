@@ -18,6 +18,7 @@ namespace MvcMovie
         }
         //Get Started
         //Add a controller
+        //Add a view
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
