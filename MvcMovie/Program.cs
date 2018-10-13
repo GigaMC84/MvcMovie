@@ -16,7 +16,7 @@ namespace MvcMovie
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
+        //Get Started
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
